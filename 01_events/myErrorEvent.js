@@ -6,4 +6,4 @@ eventEmitter.on('error', (err) => {
     console.error(`Error Occured: ${err.message}`);
 });
 
-eventEmitter.emit("error", new Error("Everything went wrong") )
+eventEmitter.emit("error", new Error("Everything went wrong"))
